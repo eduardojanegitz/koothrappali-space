@@ -6,6 +6,7 @@ import styles from "./HomePage.module.scss";
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import Gallery from "../../components/Gallery";
+import Popular from "../../components/Popular";
 
 export default function HomePage() {
     return (
@@ -19,6 +20,7 @@ export default function HomePage() {
             {/* <Footer/> */}
             <div className={styles.gallery}>
                 <Gallery />
+                <Popular />
             </div>
 
             </main>
